@@ -1,3 +1,5 @@
+// Lesson 1 = présentation et installation Node.js
+
 const fs = require("fs");
 
 // readFileSync = lire le contenu d'un fichier
