@@ -1,4 +1,4 @@
-// changer de dossier dans la console : cd ../Lesson8
+// changer de dossier dans la console : cd ../TUTO-NODE/Lesson8
 
 console.log("1");
 console.log("2");
