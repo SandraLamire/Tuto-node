@@ -4,7 +4,7 @@
 // nmp install chalk@4.1.2 -D
 
 // Ajouter "type": "module", au dessus des dépendances dans package.json pour utiliser import au lieu de require
-import chalk from "chalk";
+const chalk = require("chalk");
 
 const log = console.log;
 
@@ -12,9 +12,9 @@ const log = console.log;
 log(chalk.blue("Hello") + 'World' + chalk.red('!'));
 
 
-log(chalk.bgRed("Erreur!"))                     // background rouge
-log(chalk.green.bold("Succès!"))                // écrit en gras et vert
-log(chalk.yellow.underline("Avertissement!"))   // écrit en jaune et souligné
+log(chalk.bgRed("Erreur!"));                     // background rouge
+log(chalk.green.bold("Succès!"));                // écrit en gras et vert
+log(chalk.yellow.underline("Avertissement!"));   // écrit en jaune et souligné
 
 // Installer globalement Nodemon pour redémarrer automatiquement l'appli après modif du code
 // npm i nodemon -g 
