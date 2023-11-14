@@ -23,6 +23,8 @@ console.log(chain(5)
     .done())
 // (5 + 5) * 2 / 20 = 1
 
+// Désinstaller un module :
+// npm uninstall mathjs
 
 
 
