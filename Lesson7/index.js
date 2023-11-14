@@ -36,6 +36,7 @@ debugger
     // file:///C:/_Users_Sandra_OneDrive_Documents_Training_node_Tuto-node_Lesson7_index.js
 // echap ouvre la console et on peut y saisir des variables pour obtenir leur contenu
 // relancer le debugger en tapant restart derrière debug> dans la console de VSCode
+// .exit pour sortir du mode debug ou (2 x ctrl + c)
 
 console.log(myData.name);
 
