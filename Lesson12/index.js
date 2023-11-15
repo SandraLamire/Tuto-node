@@ -58,7 +58,6 @@ weather("Paris", "m", (err, data) => {
     console.log("Erreur:", err);
     console.log("Data:", data);
 });
-
 weather("New York", "m", (err, data) => {
     console.log("WITH CALLBACK: ");
     console.log("Erreur:", err);
